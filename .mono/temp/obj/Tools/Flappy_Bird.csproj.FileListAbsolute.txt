@@ -1,0 +1,6 @@
+C:\Users\ndesh\Flappy_Bird\.mono\temp\bin\Tools\Flappy_Bird.dll
+C:\Users\ndesh\Flappy_Bird\.mono\temp\bin\Tools\Flappy_Bird.pdb
+C:\Users\ndesh\Flappy_Bird\.mono\temp\obj\Tools\Flappy_Bird.csprojAssemblyReference.cache
+C:\Users\ndesh\Flappy_Bird\.mono\temp\obj\Tools\Flappy_Bird.csproj.CoreCompileInputs.cache
+C:\Users\ndesh\Flappy_Bird\.mono\temp\obj\Tools\Flappy_Bird.dll
+C:\Users\ndesh\Flappy_Bird\.mono\temp\obj\Tools\Flappy_Bird.pdb
