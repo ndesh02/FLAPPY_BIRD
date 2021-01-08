@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Background.cs" />
+    <Compile Include="Button.cs" />
     <Compile Include="GameOver.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Pipe.cs" />

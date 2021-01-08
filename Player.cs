@@ -19,14 +19,14 @@ public class Player : KinematicBody2D
         velocity.x+=(float)(0.1);
         velocity.y+=5;
         
-        if (Input.IsActionPressed("right"))
+     /*   if (Input.IsActionPressed("right"))
             velocity.x += 1;
 
         if (Input.IsActionPressed("left"))
             velocity.x -= 1;
 
         if (Input.IsActionPressed("down"))
-            velocity.y += 1;
+            velocity.y += 1;*/
 
         if (Input.IsActionJustPressed("up"))
             velocity.y-=200;
