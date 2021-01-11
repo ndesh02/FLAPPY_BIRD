@@ -14,6 +14,9 @@ public class Menu : Node2D
 
 
     }
+ public void OnStartPressed(){
+    Hide();
+  }
     
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.

@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Menu.cs" type="Script" id=1]
 [ext_resource path="res://city.png" type="Texture" id=2]
 [ext_resource path="res://tilesetOpenGameBackground.png" type="Texture" id=3]
-[ext_resource path="res://Button.cs" type="Script" id=4]
 
 [node name="Menu" type="Node2D"]
 script = ExtResource( 1 )
@@ -17,13 +16,13 @@ texture = ExtResource( 3 )
 position = Vector2( 0, 42.706 )
 texture = ExtResource( 2 )
 
-[node name="Button" type="Button" parent="."]
+[node name="start" type="Button" parent="."]
 margin_left = -45.8514
 margin_top = -66.926
 margin_right = 37.1486
 margin_bottom = -46.926
 text = "Start Game"
-script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="pressed" from="start" to="." method="OnStartPressed"]
