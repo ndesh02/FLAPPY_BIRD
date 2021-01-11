@@ -1,0 +1,6 @@
+C:\Coop Terms\Work Term 1\Engineering Ideas Clinic Research Assistant\Video Game Development\Flappy Bird\FLAPPY_BIRD\.mono\temp\bin\Debug\Flappy_Bird.dll
+C:\Coop Terms\Work Term 1\Engineering Ideas Clinic Research Assistant\Video Game Development\Flappy Bird\FLAPPY_BIRD\.mono\temp\bin\Debug\Flappy_Bird.pdb
+C:\Coop Terms\Work Term 1\Engineering Ideas Clinic Research Assistant\Video Game Development\Flappy Bird\FLAPPY_BIRD\.mono\temp\obj\Debug\Flappy_Bird.csprojAssemblyReference.cache
+C:\Coop Terms\Work Term 1\Engineering Ideas Clinic Research Assistant\Video Game Development\Flappy Bird\FLAPPY_BIRD\.mono\temp\obj\Debug\Flappy_Bird.csproj.CoreCompileInputs.cache
+C:\Coop Terms\Work Term 1\Engineering Ideas Clinic Research Assistant\Video Game Development\Flappy Bird\FLAPPY_BIRD\.mono\temp\obj\Debug\Flappy_Bird.dll
+C:\Coop Terms\Work Term 1\Engineering Ideas Clinic Research Assistant\Video Game Development\Flappy Bird\FLAPPY_BIRD\.mono\temp\obj\Debug\Flappy_Bird.pdb
