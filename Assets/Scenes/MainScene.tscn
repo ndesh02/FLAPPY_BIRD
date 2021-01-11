@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Player/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Scripts/PipeSpawner.cs" type="Script" id=2]
+
+[node name="MainScene" type="Node"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 85.9004, 225.571 )
+
+[node name="PipeSpawnTimer" type="Timer" parent="."]
+pause_mode = 2
+autostart = true
+
+[node name="PipeVisible" type="VisibilityNotifier2D" parent="."]
+
+[node name="PipeSpawner" type="Node2D" parent="."]
+script = ExtResource( 2 )
+spawnLocationPath = NodePath("spawnerLocation")
+screenHeight = 1000
+screenWidth = 1500
+minimumShown = 150
+verticalPipeDistance = 80
+distanceBetweenPipes = 300.0
+
+[node name="spawnerLocation" type="Node" parent="PipeSpawner"]
+[connection signal="timeout" from="PipeSpawnTimer" to="PipeSpawner" method="_on_PipeSpawnTimer_timeout"]

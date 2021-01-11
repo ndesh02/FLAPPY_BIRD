@@ -1,0 +1,6 @@
+G:\My Drive\Learning\Godot\Flappy Bird Game\Flappy Bird\.mono\temp\obj\Debug\Flappy_Bird.csprojAssemblyReference.cache
+G:\My Drive\Learning\Godot\Flappy Bird Game\Flappy Bird\.mono\temp\obj\Debug\Flappy_Bird.csproj.CoreCompileInputs.cache
+G:\My Drive\Learning\Godot\Flappy Bird Game\Flappy Bird\.mono\temp\bin\Debug\Flappy_Bird.dll
+G:\My Drive\Learning\Godot\Flappy Bird Game\Flappy Bird\.mono\temp\bin\Debug\Flappy_Bird.pdb
+G:\My Drive\Learning\Godot\Flappy Bird Game\Flappy Bird\.mono\temp\obj\Debug\Flappy_Bird.dll
+G:\My Drive\Learning\Godot\Flappy Bird Game\Flappy Bird\.mono\temp\obj\Debug\Flappy_Bird.pdb

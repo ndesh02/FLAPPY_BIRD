@@ -16,8 +16,13 @@ _global_script_class_icons={
 [application]
 
 config/name="Flappy_Bird"
-run/main_scene="res://MainScene.tscn"
+run/main_scene="res://Assets/Scenes/MainScene.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1500
+window/size/height=1000
 
 [input]
 

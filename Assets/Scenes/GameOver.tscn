@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Fonts/Roboto_64.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Assets/Fonts/Roboto_128.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Assets/Scripts/GameOver.cs" type="Script" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+
+[node name="GameOver" type="CanvasLayer"]
+pause_mode = 2
+script = ExtResource( 3 )
+
+[node name="Panel" type="PanelContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Margins" type="MarginContainer" parent="Panel"]
+margin_right = 1500.0
+margin_bottom = 1000.0
+custom_constants/margin_right = 100
+custom_constants/margin_top = 40
+custom_constants/margin_left = 100
+custom_constants/margin_bottom = 40
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Rows" type="VBoxContainer" parent="Panel/Margins"]
+margin_left = 100.0
+margin_top = 40.0
+margin_right = 1400.0
+margin_bottom = 960.0
+custom_constants/separation = 100
+
+[node name="Title" type="Label" parent="Panel/Margins/Rows"]
+margin_right = 1300.0
+margin_bottom = 151.0
+custom_fonts/font = ExtResource( 2 )
+text = "GAME OVER!!"
+align = 1
+
+[node name="restartButton" type="Button" parent="Panel/Margins/Rows"]
+margin_top = 251.0
+margin_right = 1300.0
+margin_bottom = 333.0
+custom_fonts/font = ExtResource( 1 )
+text = "RESTART"
+
+[node name="quitButton" type="Button" parent="Panel/Margins/Rows"]
+margin_top = 433.0
+margin_right = 1300.0
+margin_bottom = 515.0
+custom_fonts/font = ExtResource( 1 )
+text = "QUIT"
+[connection signal="pressed" from="Panel/Margins/Rows/restartButton" to="." method="_on_restartButton_pressed"]
+[connection signal="pressed" from="Panel/Margins/Rows/quitButton" to="." method="_on_quitButton_pressed"]
